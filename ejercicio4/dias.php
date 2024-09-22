@@ -1,6 +1,6 @@
 <?php
 $diasemana = $_POST['dia'];
-//En este caso el uso de switch era mas apropiado y claro.
+//En el switch dejamos todas las posibilidades y la opcion default para los fuera de rango
 switch ($diasemana) {
     case 1:
         echo "Lunes";
